@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: back-svc
+  namespace: ingress-nginx
+spec:
+  type: ClusterIP
+  selector:
+    app: back   
+  ports:
+    - port: 5000
+      targetPort: 5000
