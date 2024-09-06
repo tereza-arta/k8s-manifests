@@ -4,8 +4,8 @@ metadata:
   name: db-pvc
   namespace: ingress-nginx
 spec:
-  storageClassName: ""
-  volumeName: nfs-server-1
+  #storageClassName: ""
+  #volumeName: nfs-server-1
   accessModes:
     - ReadWriteOnce
   resources:
