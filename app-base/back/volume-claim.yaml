@@ -5,6 +5,7 @@ metadata:
   namespace: ingress-nginx
 spec:
   storageClassName: ""
+  volumeName: nfs-server-1
   accessModes:
     - ReadWriteOnce
   resources:
