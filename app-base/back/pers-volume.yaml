@@ -4,7 +4,7 @@ metadata:
   name: nfs-volume-1
 spec:
   capacity:
-    storage: 200Mi
+    storage: 1Gi
   volumeMode: Filesystem
   accessModes:
    - ReadWriteOnce
@@ -12,3 +12,6 @@ spec:
   nfs:
     server: 192.168.0.111
     path: "/srv/nfs/shared_dir_1"
+  claimRef:
+    name: db-pvc
+    namespace: ingress-nginx
