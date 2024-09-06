@@ -16,7 +16,7 @@ spec:
       volumes:
         - name: db-volume
           persistentVolumeClaim:
-            claimName: db-pvc
+            claimName: claim2
       containers:
         - name: pg-cnt
           image: postgres
