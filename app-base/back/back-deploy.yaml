@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: back-cnt
-          image: terezabisharyan/app-server:c1872d11d61243e72f0957019a2be40f323ca735
+          image: 'terezabisharyan/kubia:'
           ports:
             - containerPort: 5000
           env:
