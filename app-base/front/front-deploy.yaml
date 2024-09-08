@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: front-cnt
-          image: terezabisharyan/app-client:f420c421bf0c8e41b9cfa98cd62ceefb2538b6f9
+          image: terezabisharyan/app-client:b070945e
           ports:
             - containerPort: 3000
