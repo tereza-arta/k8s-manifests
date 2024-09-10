@@ -5,7 +5,8 @@ resources:
   - sts.yaml
   - volume-claim.yaml
   - secret.yaml
-  - db-service.yaml
+  - db-headless.yaml
+  #- db-service.yaml
   - back-deploy.yaml
   - back-service.yaml
   - ingress.yaml
