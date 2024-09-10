@@ -3,7 +3,7 @@ kind: StatefulSet
 metadata:
   name: pg-sts
 spec:
-  serviceName: pg-service
+  serviceName: database
   replicas: 1
   selector:
     matchLabels:
