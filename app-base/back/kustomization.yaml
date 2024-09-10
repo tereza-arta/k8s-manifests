@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
   - pers-volume.yaml
   - sts.yaml
-  - volume-claim.yaml
+  #- volume-claim.yaml
   - secret.yaml
   - db-headless.yaml
   #- db-service.yaml
