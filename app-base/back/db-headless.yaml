@@ -3,8 +3,6 @@ kind: Service
 metadata:
   name: pg-service
   namespace: ingress-nginx
-  #labels:
-    #db: postgres
 spec:
   clusterIP: None
   selector:
