@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: back-cnt
-          image: 'terezabisharyan/app-server:211df96'
+          image: 'terezabisharyan/app-server:8953978'
           ports:
             - containerPort: 5000
           env:
