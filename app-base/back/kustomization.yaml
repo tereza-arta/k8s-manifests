@@ -1,12 +1,10 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
+  - secret.yaml
   - pers-volume.yaml
   - sts.yaml
-  #- volume-claim.yaml
-  - secret.yaml
   - db-headless.yaml
-  #- db-service.yaml
   - back-deploy.yaml
   - back-service.yaml
   - ingress.yaml
